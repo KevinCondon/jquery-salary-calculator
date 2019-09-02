@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="jquery.js"></script>
+    <script src="jquery.dataTables.min.js"></script>
+    <script src="numeral.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="Table_style.css" />
     <script src="scripts.js"> </script>
+
 </head>
 
 <body>
@@ -20,33 +23,25 @@
         <h2>Add Employee</h2>
     </div>
     <div id="inputHolder">
-    <input id="firstName" value="First Name">
-    <input id="lastName" value="Last Name">
-    <input id="Id" value="Id">
-    <input id="title" value="Title">
-    <input id="Salary" value="Salary">
-    <button id="submitBtn">Submit</button>
+        <input id="firstName" value="First Name">
+        <input id="lastName" value="Last Name">
+        <input id="Id" value="ID Number">
+        <input id="title" value="Title">
+        <input id="salary" value="Salary">
+        <button id="submitBtn">Submit</button>
     </div>
     <div>
         <h2>EMPLOYEES:</h2>
     </div>
     <div>
         <table id="TABLE" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>First Name</th>
-                <th>Second Name</th>
-                <th>Id</th>
-                <th>Title</th>
-                <th>Salary</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-
-            </tr>
-        </tbody>
+            <!-- <thead>
+                <tr>
+                    <th>HI</th>
+                </tr>
+            </thead> -->
         </table>
+        <footer id="totalCost">Tester:</footer>
     </div>
 </body>
 
